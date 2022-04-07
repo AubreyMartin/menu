@@ -24,6 +24,7 @@
           <div>
             <input type="radio" name=" Here" id="dinein" />
             <label for="eating">Here</label><br />
+
             <input type="radio" name="To go" id="parcel" checked />
             <label for=" To Go"> To Go</label>
           </div>
@@ -112,24 +113,30 @@
             <br />
 
             <select name="Drinks" id="Black tea">
-              <option value="0">Hot Black Tea - Keemun</option>
-              <option value="1">Hot Black Tea - Decaf Keemun</option>
-              <option value="2">Iced Black Tea - Keemun</option>
-              <option value="3">Iced Black Tea - Decaf Keemun</option>
-              <label for="Green Tea">Green Tea</label>
-              <option value="4">Hot Green Tea - Sencha</option>
-              <option value="5">Hot Green Tea - Decaf</option>
-              <option value="6">Iced Green Tea - Sencha</option>
-              <option value="7">Iced Green Tea - Decaf</option>
-              <label for="Coffee">Coffee</label>
-              <option value="8">Hot coffee</option>
-              <option value="9">Hot Decaf coffee</option>
-              <option value="10">Iced Coffee</option>
-              <option value="11">Iced decaf coffee</option>
-              <label for="Bubble Tea ($1.50 extra)"
-                >Bubble Tea ($1.50 extra)</label
-              >
-              <option value="12">Bubble Tea</option>
+              <optgroup label="Black Tea">
+                <option value="0">Hot Black Tea - Keemun</option>
+                <option value="1">Hot Black Tea - Decaf Keemun</option>
+                <option value="2">Iced Black Tea - Keemun</option>
+                <option value="3">Iced Black Tea - Decaf Keemun</option>
+              </optgroup>
+
+              <optgroup label="Green Tea">
+                <option value="4">Hot Green Tea - Sencha</option>
+                <option value="5">Hot Green Tea - Decaf</option>
+                <option value="6">Iced Green Tea - Sencha</option>
+                <option value="7">Iced Green Tea - Decaf</option>
+              </optgroup>
+
+              <optgroup label="Coffee">
+                <option value="8">Hot coffee</option>
+                <option value="9">Hot Decaf coffee</option>
+                <option value="10">Iced Coffee</option>
+                <option value="11">Iced decaf coffee</option>
+              </optgroup>
+
+              <optgroup label="Bubble Tea ($1.50 extra)">
+                <option value="12">Bubble Tea</option>
+              </optgroup>
             </select>
             <hr />
             <input type="checkbox" name="Large" id="Big" />
